@@ -25,15 +25,6 @@ export default function Page() {
 			<Team />
 			<Pricing />
 			<FAQ />
-			{/* 
-      Clients
-      Results
-      Testimonials
-      Process
-      Team
-      Pricing
-      FAQ
-      */}
 			<Footer />
 		</>
 	);
