@@ -10,11 +10,14 @@ import Team from "@/components/Team";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import { Suspense } from "react";
 
 export default function Page() {
 	return (
 		<>
-			<Header />
+			<Suspense>
+				<Header />
+			</Suspense>
 			<Hero />
 			<FeaturesAccordion />
 			<Clients />
