@@ -22,8 +22,8 @@ export default function TestimonialBig() {
 									Attention to Detail
 								</h3>
 								<p className="text-sm">
-									Voics' editing skills are nothing short of
-									brilliant. Their meticulous attention to
+									Voics&apos; editing skills are nothing short
+									of brilliant. Their meticulous attention to
 									detail, from taking care of the minute
 									background noises to perfecting the
 									transitions between different segments, has
