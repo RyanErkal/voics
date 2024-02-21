@@ -7,22 +7,22 @@ export default function TestimonialBig() {
 			<div className="max-w-7xl flex flex-col items-center justify-center text-center w-full">
 				<div className="bg-gray-100 w-full rounded-lg px-8 py-8 lg:py-16">
 					<div className="grid grid-cols-1 lg:grid-cols-4 w-full">
-						<div className="h-full flex lg:flex-col items-center justify-center md:items-start mb-12 lg:mb-0">
+						<div className="h-full w-full flex flex-col items-center justify-center mb-12 lg:mb-0">
 							<Image
 								src={clientbig}
 								alt="Client"
 								height={200}
 								width={200}
-								className="rounded-full object-contain"
+								className="rounded-full"
 							/>
-							<figcaption className="relative flex items-center justify-start gap-4 pt-4 ml-6 lg:ml-0 mt-4 md:gap-8 md:pt-8 md:mt-8 lg:border-t lg:border-base-content/5">
-								<div className="w-full flex items-center justify-between gap-2">
-									<div>
-										<div className="font-medium text-base-content md:mb-0.5 w-full text-left">
+							<figcaption className="relative w-fit flex items-center justify-start gap-4 pt-4 ml-6 lg:ml-0 mt-4  lg:border-t lg:border-base-content/5">
+								<div className="w-full flex flex-col items-center justify-center gap-2">
+									<div className="flex flex-col items-center lg:items-start">
+										<div className="font-medium text-base-content md:mb-0.5 w-full text-center lg:text-left">
 											David Fastuca
 										</div>
 
-										<div className="mt-0.5 text-sm text-base-content/80 mb-2">
+										<div className="mt-0.5 text-sm text-base-content/80 mb-2 w-full text-center lg:text-left">
 											How To Sell - Top 1.5% Podcast
 										</div>
 
