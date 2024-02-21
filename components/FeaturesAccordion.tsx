@@ -177,9 +177,9 @@ const Media = ({ feature }: { feature: Feature }) => {
 		return (
 			<video
 				className={style}
-				autoPlay
-				muted
-				loop
+				autoPlay={true}
+				muted={true}
+				loop={true}
 				playsInline
 				controls
 				width={size.width}
