@@ -35,7 +35,7 @@ export default function Process() {
 	return (
 		<section id="process">
 			<div className="py-24 px-8 max-w-7xl w-full mx-auto flex flex-col justify-start gap-10 text-base-content/80">
-				<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
+				<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight -mb-4">
 					How Do We Do It?
 				</h2>
 				<p className="text-lg  leading-relaxed">
