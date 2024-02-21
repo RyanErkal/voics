@@ -5,6 +5,7 @@ import type { JSX } from "react";
 import Image from "next/image";
 import place1 from "@/public/place1.webp";
 import place2 from "@/public/place2.webp";
+import place3 from "@/public/place3.webp";
 
 interface Feature {
 	title: string;
@@ -95,8 +96,7 @@ const features = [
 		title: "Monetize",
 		description:
 			"Turn your passion into a business. We'll help you monetize your podcast and generate revenue from your content.",
-		type: "image",
-		path: place2,
+
 		svg: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
