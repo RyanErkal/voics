@@ -72,7 +72,7 @@ export default function Clients() {
 					Our Clients
 				</h2>
 				<p className="text-lg text-black/75 leading-relaxed">
-					Real people, real results. We've helped hundreds of
+					Real people, real results. We&apos;ve helped hundreds of
 					podcasters grow their audience and monetize their shows.
 				</p>
 				<div className="grid grid-cols-2 lg:grid-cols-5 gap-6 w-full">
