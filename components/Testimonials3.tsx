@@ -54,7 +54,7 @@ const Testimonial = ({ i }: { i: number }) => {
 				<figcaption className="relative flex items-center justify-start gap-4 pt-4 mt-4 md:gap-8 md:pt-8 md:mt-8 border-t border-base-content/5">
 					<div className="w-full flex items-center justify-between gap-2">
 						<div>
-							<div className="font-medium text-base-content md:mb-0.5">
+							<div className="font-bold text-base-content/80 md:mb-0.5">
 								{testimonial.name}
 							</div>
 							{testimonial.username && (
@@ -109,7 +109,7 @@ const Testimonials3 = () => {
 				<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight -mb-4">
 					What Our Clients Say
 				</h2>
-				<p className="text-lg text-black/75 leading-relaxed">
+				<p className="text-lg text-base-content/80 leading-relaxed">
 					Dont&apos;t just take our word for it. Here&apos;s what our
 					clients have to say about us.
 				</p>

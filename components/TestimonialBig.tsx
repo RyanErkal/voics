@@ -18,7 +18,7 @@ export default function TestimonialBig() {
 							<figcaption className="relative w-fit flex items-center justify-start gap-4 pt-4 ml-6 lg:ml-0 mt-4  lg:border-t lg:border-base-content/5">
 								<div className="w-full flex flex-col items-center justify-center gap-2">
 									<div className="flex flex-col items-center lg:items-start">
-										<div className="font-medium text-base-content md:mb-0.5 w-full text-center lg:text-left">
+										<div className="font-bold text-base-content/80 md:mb-0.5 w-full text-center lg:text-left">
 											David Fastuca
 										</div>
 

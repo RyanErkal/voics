@@ -38,7 +38,7 @@ export default function Team() {
 	return (
 		<section className="bg-white py-8 flex flex-col items-center">
 			<div className="max-w-7xl px-8 flex flex-col items-center justify-center text-center w-full">
-				<div className="bg-[#ff8ba0] w-full max-w-lg md:max-w-2xl lg:max-w-full rounded-lg px-8 py-20 drop-shadow-md">
+				<div className="bg-[#ff8ba0] w-full max-w-md md:max-w-2xl lg:max-w-full rounded-lg px-8 py-20 drop-shadow-md">
 					<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12">
 						Meet the team.
 					</h2>
