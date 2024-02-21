@@ -3,6 +3,8 @@
 import { useState, useRef } from "react";
 import type { JSX } from "react";
 import Image from "next/image";
+import place1 from "@/public/place1.webp";
+import place2 from "@/public/place2.webp";
 
 interface Feature {
 	title: string;
@@ -26,9 +28,9 @@ const features = [
 		title: "Launch",
 		description:
 			"No need to worry about the technical details, we handle everything for you. Just focus on the recording and we'll take care of the rest.",
-		type: "video",
-		path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
-		format: "video/webm",
+		type: "image",
+		path: place1 /* "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm" */,
+		/* format: "video/webm", */
 		svg: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +51,7 @@ const features = [
 		description:
 			"Growing your audience is no longer a bottleneck. We provide the infrastructure to scale your podcast to millions of listeners.",
 		type: "image",
-		path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+		path: place2,
 		alt: "A computer",
 		svg: (
 			<svg
@@ -71,6 +73,8 @@ const features = [
 		title: "Produce",
 		description:
 			"Our in-house production team will help you produce professional-quality content that will keep your listeners coming back for more.",
+		type: "image",
+		path: place1,
 		svg: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +95,8 @@ const features = [
 		title: "Monetize",
 		description:
 			"Turn your passion into a business. We'll help you monetize your podcast and generate revenue from your content.",
+		type: "image",
+		path: place2,
 		svg: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -177,11 +183,12 @@ const Media = ({ feature }: { feature: Feature }) => {
 		return (
 			<video
 				className={style}
-				autoPlay={true}
-				muted={true}
-				loop={true}
+				autoPlay
+				muted
+				loop
 				playsInline
 				controls
+				preload="auto"
 				width={size.width}
 				height={size.height}>
 				<source src={path} type={format} />
