@@ -7,12 +7,12 @@ export default function StatsBanner() {
 		<section className="bg-white py-8 flex flex-col items-center">
 			<div className="max-w-7xl px-8 flex flex-col items-center justify-center text-center w-full">
 				<div className="bg-[#ff8ba0] w-full rounded-lg px-8 py-20 drop-shadow-md">
-					<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-10 lg:mb-20">
+					<h2 className="font-extrabold text-3xl lg:text-6xl tracking-tight mb-10 lg:mb-20">
 						The numbers don&apos;t lie.
 					</h2>
-					<div className="grid grid-cols-4 gap-6 w-full">
-						<div className="flex flex-col gap-4 items-center justify-center text-center w-full">
-							<h3 className="font-extrabold text-lg lg:text-4xl tracking-tight">
+					<div className="grid grid-cols-2 xl:grid-cols-4 gap-6 w-full">
+						<div className="flex flex-col gap-2 items-center justify-center text-center w-full">
+							<h3 className="font-extrabold text-2xl lg:text-4xl tracking-tight">
 								<CountUp
 									end={55000000}
 									duration={3}
@@ -23,8 +23,8 @@ export default function StatsBanner() {
 								Views
 							</p>
 						</div>
-						<div className="flex flex-col gap-4 items-center justify-center text-center w-full">
-							<h3 className="font-extrabold text-lg lg:text-4xl tracking-tight">
+						<div className="flex flex-col gap-2 items-center justify-center text-center w-full">
+							<h3 className="font-extrabold text-2xl lg:text-4xl tracking-tight">
 								<CountUp
 									end={10000000}
 									duration={3}
@@ -35,8 +35,8 @@ export default function StatsBanner() {
 								Downloads
 							</p>
 						</div>
-						<div className="flex flex-col gap-4 items-center justify-center text-center w-full">
-							<h3 className="font-extrabold text-lg lg:text-4xl tracking-tight">
+						<div className="flex flex-col gap-2 items-center justify-center text-center w-full">
+							<h3 className="font-extrabold text-2xl lg:text-4xl tracking-tight">
 								<CountUp
 									end={500}
 									duration={3}
@@ -47,8 +47,8 @@ export default function StatsBanner() {
 								Episodes
 							</p>
 						</div>
-						<div className="flex flex-col gap-4 items-center justify-center text-center w-full">
-							<h3 className="font-extrabold text-lg lg:text-4xl tracking-tight">
+						<div className="flex flex-col gap-2 items-center justify-center text-center w-full">
+							<h3 className="font-extrabold text-2xl lg:text-4xl tracking-tight">
 								<CountUp
 									end={30}
 									duration={3}

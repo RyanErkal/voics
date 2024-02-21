@@ -5,18 +5,48 @@ export default function TestimonialBig() {
 	return (
 		<section className="bg-white flex flex-col items-center">
 			<div className="max-w-7xl flex flex-col items-center justify-center text-center w-full">
-				<div className="bg-gray-100 w-full rounded-lg px-8 py-8 xl:py-16">
-					<div className="grid grid-cols-1 xl:grid-cols-3 w-full">
-						<div className="h-full flex items-center justify-center">
+				<div className="bg-gray-100 w-full rounded-lg px-8 py-8 lg:py-16">
+					<div className="grid grid-cols-1 lg:grid-cols-4 w-full">
+						<div className="h-full flex lg:flex-col items-center justify-center md:items-start mb-12 lg:mb-0">
 							<Image
 								src={clientbig}
 								alt="Client"
-								height={300}
-								width={300}
-								className="rounded-full object-contain mb-8 xl:mb-0"
+								height={200}
+								width={200}
+								className="rounded-full object-contain"
 							/>
+							<figcaption className="relative flex items-center justify-start gap-4 pt-4 ml-6 lg:ml-0 mt-4 md:gap-8 md:pt-8 md:mt-8 lg:border-t lg:border-base-content/5">
+								<div className="w-full flex items-center justify-between gap-2">
+									<div>
+										<div className="font-medium text-base-content md:mb-0.5 w-full text-left">
+											David Fastuca
+										</div>
+
+										<div className="mt-0.5 text-sm text-base-content/80 mb-2">
+											How To Sell - Top 1.5% Podcast
+										</div>
+
+										<div className="flex">
+											{[...Array(5)].map((_, i) => (
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20"
+													fill="currentColor"
+													className="w-5 h-5 text-yellow-500"
+													key={i}>
+													<path
+														fillRule="evenodd"
+														d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+														clipRule="evenodd"
+													/>
+												</svg>
+											))}
+										</div>
+									</div>
+								</div>
+							</figcaption>
 						</div>
-						<div className="xl:col-span-2 grid grid-cols-1 xl:grid-cols-2 justify-center gap-6 gap-x-10 text-base-content/80">
+						<div className="lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 justify-center gap-6 gap-x-10 text-base-content/80">
 							<div className="flex flex-col justify-start text-left">
 								<h3 className="font-bold">
 									Attention to Detail

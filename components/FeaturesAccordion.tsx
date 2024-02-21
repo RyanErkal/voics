@@ -212,7 +212,7 @@ const FeaturesAccordion = () => {
 			className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto bg-white "
 			id="features">
 			<div className="px-8">
-				<h2 className="font-extrabold text-2xl lg:text-6xl tracking-tight mb-12 md:mb-24">
+				<h2 className="font-extrabold text-2xl lg:text-6xl tracking-tight mb-6 md:mb-24">
 					We take care of the boring stuff so you can
 					<span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
 						create amazing podcasts

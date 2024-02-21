@@ -66,7 +66,9 @@ const clients = [
 
 export default function Clients() {
 	return (
-		<section className="max-w-7xl mx-auto bg-white px-8 py-8 lg:py-20">
+		<section
+			id="clients"
+			className="max-w-7xl mx-auto bg-white px-8 py-8 lg:py-20">
 			<div className="flex flex-col gap-10 items-start justify-center text-left w-full">
 				<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
 					Our Clients
@@ -89,7 +91,7 @@ export default function Clients() {
 								placeholder="blur"
 								height={200}
 								width={200}
-								className="object-cover w-full h-full group-hover:scale-105 transition-all duration-300 ease-in-out rounded-sm"
+								className="object-cover w-full h-full group-hover:scale-105 hover:drop-shadow-sm transition-all duration-300 ease-in-out rounded-sm"
 							/>
 						</Link>
 					))}
