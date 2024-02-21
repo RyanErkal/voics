@@ -10,7 +10,7 @@ export default function StatsBanner() {
 					<h2 className="font-extrabold text-3xl lg:text-6xl tracking-tight mb-10 lg:mb-20">
 						The numbers don&apos;t lie.
 					</h2>
-					<div className="grid grid-cols-2 xl:grid-cols-4 gap-6 w-full">
+					<div className="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full">
 						<div className="flex flex-col gap-2 items-center justify-center text-center w-full">
 							<h3 className="font-extrabold text-2xl lg:text-4xl tracking-tight">
 								<CountUp
