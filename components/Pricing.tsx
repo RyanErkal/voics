@@ -14,11 +14,11 @@ const Pricing = () => {
 					</h2>
 				</div>
 
-				<div className="relative flex justify-center flex-col lg:flex-row items-center lg:items-stretch gap-8">
+				<div className="relative flex justify-center flex-col lg:flex-row items-center lg:items-stretch gap-8 max-w-4xl mx-auto">
 					{config.stripe.plans.map((plan) => (
 						<div
 							key={plan.priceId}
-							className="relative w-full max-w-lg bg-gray-100 rounded-lg">
+							className="relative w-full bg-gray-100 rounded-lg">
 							{plan.isFeatured && (
 								<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
 									<span
