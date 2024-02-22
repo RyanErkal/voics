@@ -82,14 +82,10 @@ export default function TestimonialBig() {
 									Operational Efficiencies
 								</h3>
 								<p className="text-sm">
-									When it comes to operations, Voics shines
-									just as brightly. They took the onus of
-									managing the technical aspect entirely,
-									leaving us free to focus on creating
-									compelling content. Their streamlined
-									process, timely updates, and prompt delivery
-									ensured a smooth operation from start to
-									finish.
+									What sets Voics apart is their collaborative
+									approach. They take the time to understand
+									our requirements and provide ideas that best
+									suit our needs.
 								</p>
 							</div>
 							<div className="flex flex-col justify-start text-left">
@@ -97,14 +93,11 @@ export default function TestimonialBig() {
 									Operational Efficiencies
 								</h3>
 								<p className="text-sm">
-									When it comes to operations, Voics shines
-									just as brightly. They took the onus of
-									managing the technical aspect entirely,
-									leaving us free to focus on creating
-									compelling content. Their streamlined
-									process, timely updates, and prompt delivery
-									ensured a smooth operation from start to
-									finish.
+									Voics&apos; customer service is top-notch.
+									They&apos;re always available for any
+									queries or last-minute changes, maintaining
+									open lines of communication throughout the
+									process.
 								</p>
 							</div>
 						</div>
