@@ -6,7 +6,7 @@ const config = {
 	appName: "Voics",
 	// REQUIRED: a short description of your app for SEO tags (can be overwritten)
 	appDescription:
-		"Create a scalable personal brand and grow your authority through podcasting. Voics is a podcast media company that creates, markets and grows your podcast.",
+		"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show.",
 	// REQUIRED (no https://, not trialing slash at the end, just the naked domain)
 	domainName: "voics.co",
 	crisp: {
@@ -38,7 +38,7 @@ const config = {
 					},
 					{ name: "2 show notes" },
 					{ name: "8 marketing clips & posts" },
-					{ name: "2 episode thumbnials" },
+					{ name: "2 episode thumbnails" },
 					{ name: "1 monthly consultation" },
 					{ name: "2 transcripts and newsletters" },
 					{ name: "1 content review" },
@@ -62,7 +62,7 @@ const config = {
 					},
 					{ name: "Unlimited show notes" },
 					{ name: "Unlimited marketing clips & posts" },
-					{ name: "Unlimited episode thumbnials" },
+					{ name: "Unlimited episode thumbniails" },
 					{ name: "2 monthly consultation" },
 					{ name: "4 transcripts and newsletters" },
 					{ name: "3 content review" },
