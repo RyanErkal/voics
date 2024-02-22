@@ -6,6 +6,7 @@ import Results from "@/components/Results";
 import StatsBanner from "@/components/StatsBanner";
 import Testimonials3 from "@/components/Testimonials3";
 import Process from "@/components/Process";
+import Form from "@/components/Form/Form";
 import Team from "@/components/Team";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
@@ -25,6 +26,7 @@ export default function Page() {
 			<StatsBanner />
 			<Testimonials3 />
 			<Process />
+			<Form />
 			<Team />
 			<Pricing />
 			<FAQ />

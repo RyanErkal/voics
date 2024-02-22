@@ -216,7 +216,7 @@ const FeaturesAccordion = () => {
 
 	return (
 		<section
-			className="py-24 md:py-32 space-y-24 md:space-y-32 max-w-7xl mx-auto bg-white "
+			className="py-24 space-y-24 max-w-7xl mx-auto bg-white "
 			id="features">
 			<div className="px-8">
 				<h2 className="font-extrabold text-2xl md:text-3xl lg:text-5xl tracking-tight mb-6 md:mb-12 lg:mb-24">
