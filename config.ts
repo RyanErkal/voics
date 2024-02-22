@@ -3,7 +3,7 @@ import { ConfigProps } from "./types/config";
 
 const config = {
 	// REQUIRED
-	appName: "Voics",
+	appName: "Voics - We Make Growing B2B Podcasts Easy",
 	// REQUIRED: a short description of your app for SEO tags (can be overwritten)
 	appDescription:
 		"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show.",

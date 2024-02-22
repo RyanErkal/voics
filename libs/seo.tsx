@@ -21,23 +21,28 @@ export const getSEOTags = ({
 		// up to 50 characters (what does your app do for the user?) > your main should be here
 		title: "Voics - We Make Growing B2B Podcasts Easy" || config.appName,
 		// up to 160 characters (how does your app help the user?)
-		description: description || config.appDescription,
+		description:
+			"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show." ||
+			config.appDescription,
 		// some keywords separated by commas. by default it will be your app name
 		keywords:
 			"b2b podcast, b2b, podcast, launching podcasts, launching a podcast, podcast production, podcast editing, editing, podcast operations, managing podcast, how to manage a podcast, podcast monetisation, podcast design, graphic design, podcast creation, launching" || [
 				config.appName
 			],
-		applicationName: config.appName,
+		applicationName: "Voics - We Make Growing B2B Podcasts Easy",
 		// set a base URL prefix for other fields that require a fully qualified URL (.e.g og:image: og:image: 'https://yourdomain.com/share.png' => '/share.png')
 		metadataBase: new URL(
 			process.env.NODE_ENV === "development"
-				? "http://localhost:3000/"
+				? "http://voics.co/"
 				: `https://${config.domainName}/`
 		),
 
 		openGraph: {
-			title: openGraph?.title || config.appName,
-			description: openGraph?.description || config.appDescription,
+			title:
+				"Voics - We Make Growing B2B Podcasts Easy" || config.appName,
+			description:
+				"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show." ||
+				config.appDescription,
 			url: openGraph?.url || `https://${config.domainName}/`,
 			siteName: openGraph?.title || config.appName,
 			// If you add an opengraph-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
@@ -53,8 +58,11 @@ export const getSEOTags = ({
 		},
 
 		twitter: {
-			title: openGraph?.title || config.appName,
-			description: openGraph?.description || config.appDescription,
+			title:
+				"Voics - We Make Growing B2B Podcasts Easy" || config.appName,
+			description:
+				"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show." ||
+				config.appDescription,
 			// If you add an twitter-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
 			// images: [openGraph?.image || defaults.og.image],
 			card: "summary_large_image",
