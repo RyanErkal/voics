@@ -8,7 +8,7 @@ const config = {
 	appDescription:
 		"What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show.",
 	// REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-	domainName: "voics.co",
+	domainName: "voics.vercel.app",
 	crisp: {
 		// Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
 		id: "",
