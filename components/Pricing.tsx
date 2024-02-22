@@ -47,16 +47,6 @@ const Pricing = () => {
 									</div>
 								</div>
 								<div className="flex gap-2">
-									{plan.priceAnchor && (
-										<div className="flex flex-col justify-end mb-[4px] text-lg ">
-											<p className="relative">
-												<span className="absolute bg-base-content h-[1.5px] inset-x-0 top-[53%]"></span>
-												<span className="text-base-content/80">
-													${plan.priceAnchor}
-												</span>
-											</p>
-										</div>
-									)}
 									<p
 										className={`text-5xl tracking-tight font-extrabold`}>
 										${plan.price}
