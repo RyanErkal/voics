@@ -7,7 +7,7 @@ import config from "@/config";
 const Pricing = () => {
 	return (
 		<section className="bg-white overflow-hidden" id="pricing">
-			<div className="py-24 px-8 max-w-7xl mx-auto">
+			<div className="py-24 px-8 max-w-7xl mx-auto text-base-content/80">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight">
 						Podcasts without the hassle.

@@ -45,7 +45,7 @@ export default function Form() {
 						)}
 						<button
 							onClick={handleNext}
-							className={`btn btn-wide mt-6 ${
+							className={`btn btn-wide hover:bg-[#ff8ba0] hover:border-[#ff8ba0] hover:text-white transition-all ease-in-out duration-300 mt-6 ${
 								step === 5 && "hidden"
 							}`}>
 							{step === 4 ? "Submit" : "Next"}

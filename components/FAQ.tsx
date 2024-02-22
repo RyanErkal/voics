@@ -42,7 +42,7 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 	return (
 		<li>
 			<button
-				className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+				className="relative flex gap-2 items-center w-full py-5 text-base-content/80 font-semibold text-left border-t md:text-lg border-base-content/10"
 				onClick={(e) => {
 					e.preventDefault();
 					setIsOpen(!isOpen);
@@ -95,13 +95,13 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 
 const FAQ = () => {
 	return (
-		<section className="bg-white" id="faq">
+		<section className="bg-white text-base-content/80" id="faq">
 			<div className="py-24 px-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
 				<div className="flex flex-col text-left basis-1/2">
 					<p className="inline-block font-semibold text-[#ff8ba0] mb-4">
 						FAQ
 					</p>
-					<p className="sm:text-4xl text-3xl font-extrabold text-base-content">
+					<p className="sm:text-4xl text-3xl font-extrabold text-base-content/80">
 						Frequently Asked Questions
 					</p>
 				</div>
