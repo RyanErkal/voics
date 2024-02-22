@@ -44,18 +44,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 					<meta
 						name="twitter:description"
 						content="What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show."></meta>
-					<meta
-						name="twitter:image"
-						content="https://lirp.cdn-website.com/71a70192/dms3rep/multi/opt/105874653_padded_logo-1920w.png"></meta>
+
 					<meta
 						property="og:description"
 						content="What starts in your imagination comes to life in your podcast. Voics is a Podcast-as-a-Service company (PaaS) that creates, markets and scales your B2B podcast. We launch your podcast with no delays and manage the boring parts of creating episodes. Sit back and let you the professionals run your show."></meta>
 					<meta
 						property="og:title"
 						content="Voics - We Make Growing B2B Podcasts Easy"></meta>
-					<meta
-						property="og:image"
-						content="https://lirp.cdn-website.com/71a70192/dms3rep/multi/opt/105874653_padded_logo-1920w.png"></meta>
 				</head>
 			)}
 			<body>
