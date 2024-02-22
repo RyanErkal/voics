@@ -12,7 +12,7 @@ export default function Call() {
 					Chat with us.
 				</h2>
 				<div className="w-full xl:w-[600px] border-2">
-					<InlineWidget url="https://calendly.com/voicsagency/30min?month=2024-02" />
+					<InlineWidget url="https://calendly.com/voicsagency/30min?month=2024-02?hide_gdpr_banner=1" />
 				</div>
 			</div>
 		</div>
